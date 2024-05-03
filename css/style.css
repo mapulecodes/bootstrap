@@ -5,3 +5,38 @@
     pad: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary: grey;
+    --secondary: rgb(55, 48, 48);
+    --alternative: rgb(29, 27, 27);
+    --bgHeaderFooter: rgb(63, 63, 63);
+    --awesome: rgb(28, 26, 26);
+    --bgCAbout: rgb(144, 144, 192);
+    --mainBox-shadow: .2rem .2rem .1rem .2rem rgb(82, 104, 117);
+    --card-box-shadow:.5w .5w 1vw rgb(83, 80, 107);
+    --text-shadow: .3rem .3rem .4rem rgb(16, 16, 39);
+    --mainBg: black;
+    --bgImg: linear-gradient(to right,var(--awesome),var(--mainBg))
+    
+
+
+
+
+
+
+
+}
+@property --top-left {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 50%;
+}
+@property --top-right {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value: 0%;
+}
+
+@property --bottom-right {
+
+}
